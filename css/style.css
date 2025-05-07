@@ -1,0 +1,36 @@
+/* *********************** General *********************** */
+
+.header-title {
+    font-size: 4.5rem;
+}
+
+
+
+
+
+
+
+/* *********************** Start Header *********************** */
+header {
+    background-image: url(../imgs/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.heeader-content {
+    position: absolute;
+}
+
+/* *********************** End Header *********************** */
