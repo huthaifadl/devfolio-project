@@ -1,9 +1,25 @@
 /* *********************** General *********************** */
+*, *::after, *::before {
+    box-sizing: border-box;
+}
 
 .header-title {
     font-size: 4.5rem;
 }
 
+/* Start my spacing valuse */
+.sect-pt-4 {
+    padding-top: 4rem;
+}
+
+.sect-pb-4 {
+    padding-bottom: 4rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+/* End my spacing valuse */
 
 
 
@@ -79,3 +95,21 @@ header {
 }
 
 /* *********************** End Header *********************** */
+
+/* *********************** Start About *********************** */
+.about-card {
+    /* border: none;*/
+    box-shadow: #b8b8b8;
+    border-radius: 0; 
+    padding: 4rem;
+    background-color: #fff;
+}
+
+section.about {
+    background-color: #f5f5f5;
+}
+
+p > span:first-child , .skills-title {
+    font-weight: 700;
+}
+/* *********************** End About *********************** */
