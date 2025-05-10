@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.min.css" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>DevFolio Project</title>
@@ -71,7 +72,7 @@
 
     <!-- *********************** Start Header *********************** -->
     <header class="vh-100 d-flex justify-content-center align-items-center">
-      <div class="overlay"></div>
+      <div class="overlay-header"></div>
       <div class="header-content text-white text-center">
         <h1 class="header-title fw-bold">I am Huthaifa Dalwan</h1>
         <p class="fs-2 fw-bold"><span id="typed"></span></p>
@@ -80,69 +81,621 @@
     <!-- *********************** End Header *********************** -->
 
     <!-- *********************** Start About *********************** -->
-    <section class="about sect-pt-4 sect-pb-4">
-        <div class="container">
-            <div class="row">
-                <div class="card about-card mb-5" >
-                    <div class="row g-0">
-                      <div class="col-md-4 w-50">
-                        <div class="row">
-                            <div class="col-sm-6 col-md-5">
-                                <img src="./imgs/testimonial-2.jpg" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-sm-6 col-md-5">
-                                <p><span>Name: </span><span>Huthaifa Dalwan</span></p>
-                                <p><span>Profile: </span><span>Full stack developer</span></p>
-                                <p><span>Email: </span><span>huthaifasyr7@gmail.com</span></p>
-                                <p><span>Phone: </span><span>011-444-94-561</span></p>
-                            </div>
+    <section class="bg-section sect-pt-4 sect-pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="card about-card mb-2">
+            <div class="row g-0">
+              <div class="col-md-4 w-50">
+                <div class="row">
+                  <div class="col-sm-6 col-md-5">
+                    <img
+                      src="./imgs/testimonial-2.jpg"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-sm-6 col-md-5">
+                    <p><span>Name: </span><span>Huthaifa Dalwan</span></p>
+                    <p>
+                      <span>Profile: </span><span>Full stack developer</span>
+                    </p>
+                    <p>
+                      <span>Email: </span><span>huthaifasyr7@gmail.com</span>
+                    </p>
+                    <p><span>Phone: </span><span>011-444-94-561</span></p>
+                  </div>
+                </div>
+                <div class="skills-bars">
+                  <p class="skills-title fs-5">Skill</p>
+                  <span>HTML</span>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div class="progress-bar" style="width: 85%">85%</div>
+                  </div>
+                  <span>CSS3</span>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div class="progress-bar" style="width: 70%">70%</div>
+                  </div>
+                  <span>BOOTSTRAP</span>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div class="progress-bar" style="width: 50%">50%</div>
+                  </div>
+                  <span>JAVASCRIPT</span>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div class="progress-bar" style="width: 90%">90%</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8 w-50">
+                <div class="card-body">
+                  <h5 class="card-title about-tilte fs-2">About me</h5>
+                  <p class="card-text">
+                    Curabitur non nulla sit amet nisl tempus convallis quis ac
+                    lectus. Curabitur arcu erat, accumsan id imperdiet et,
+                    porttitor at sem. Praesent sapien massa, convallis a
+                    pellentesque nec, egestas non nisi. Nulla porttitor accumsan
+                    tincidunt.
+                  </p>
+                  <p class="card-text">
+                    Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                    Vivamus suscipit tortor eget felis porttitor volutpat.
+                    Vestibulum ac diam sit amet quam vehicula elementum sed sit
+                    amet dui. porttitor at sem.
+                  </p>
+                  <p class="card-text">
+                    Nulla porttitor accumsan tincidunt. Quisque velit nisi,
+                    pretium ut lacinia in, elementum id enim. Nulla porttitor
+                    accumsan tincidunt. Mauris blandit aliquet elit, eget
+                    tincidunt nibh pulvinar a.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- *********************** End About *********************** -->
+
+    <!-- *********************** Start Services *********************** -->
+    <section class="bg-section sect-pt-4 sect-pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="fs-tilte">Servicer</h3>
+              <p class="subtitle">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="sect-title-line"></div>
+            </div>
+          </div>
+          <div class="mb-5">
+            <div class="row g-0">
+              <div class="col-md-4 w-100">
+                <div class="row">
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <!-- service 1 -->
+                    <div class="col-md-4">
+                      <div class="card service-box boxs-shadow text-center">
+                        <div class="service-icon">
+                          <div
+                            class="icon-bg-circle d-flex align-items-center justify-content-center d-inline-flex"
+                          >
+                            <i class="fa-solid fa-briefcase"></i>
+                          </div>
                         </div>
-                        <div class="skills-bars">
-                            <p class="skills-title fs-5">Skill</p>
-                            <span>HTML</span>
-                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar" style="width: 85%">85%</div>
-                            </div>
-                            <span>CSS3</span>
-                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar" style="width: 70%">70%</div>
-                            </div>
-                            <span>BOOTSTRAP</span>
-                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar" style="width: 50%">50%</div>
-                            </div>
-                            <span>JAVASCRIPT</span>
-                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar" style="width: 90%">90%</div>
-                            </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Web Design</h5>
+                          <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Magni adipisci eaque autem fugiat! Quia,
+                            provident vitae! Magni tempora perferendis eum non
+                            provident.
+                          </p>
                         </div>
                       </div>
-                      <div class="col-md-8 w-50">
+                    </div>
+                    <!-- service 2 -->
+                    <div class="col">
+                      <div class="card service-box boxs-shadow text-center">
+                        <div class="service-icon">
+                          <div
+                            class="icon-bg-circle d-flex align-items-center justify-content-center d-inline-flex"
+                          >
+                            <i class="fa-solid fa-list-check"></i>
+                          </div>
+                        </div>
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                          <h5 class="card-title">Web Development</h5>
+                          <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Magni adipisci eaque autem fugiat! Quia,
+                            provident vitae! Magni tempora perferendis eum non
+                            provident.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- service 3 -->
+                    <div class="col">
+                      <div class="card service-box boxs-shadow text-center">
+                        <div class="service-icon">
+                          <div
+                            class="icon-bg-circle d-flex align-items-center justify-content-center d-inline-flex"
+                          >
+                            <i class="fa-solid fa-chart-simple"></i>
+                          </div>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Photography</h5>
+                          <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Magni adipisci eaque autem fugiat! Quia,
+                            provident vitae! Magni tempora perferendis eum non
+                            provident.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- service 4 -->
+                    <div class="col">
+                      <div class="card service-box boxs-shadow text-center">
+                        <div class="service-icon">
+                          <div
+                            class="icon-bg-circle d-flex align-items-center justify-content-center d-inline-flex"
+                          >
+                            <i class="fa-solid fa-binoculars"></i>
+                          </div>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Responsive Design</h5>
+                          <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Magni adipisci eaque autem fugiat! Quia,
+                            provident vitae! Magni tempora perferendis eum non
+                            provident.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- service 5 -->
+                    <div class="col">
+                      <div class="card service-box boxs-shadow text-center">
+                        <div class="service-icon">
+                          <div
+                            class="icon-bg-circle d-flex align-items-center justify-content-center d-inline-flex"
+                          >
+                            <i class="fa-solid fa-sun"></i>
+                          </div>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Graphic Design</h5>
+                          <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Magni adipisci eaque autem fugiat! Quia,
+                            provident vitae! Magni tempora perferendis eum non
+                            provident.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- service 6 -->
+                    <div class="col">
+                      <div class="card service-box boxs-shadow text-center">
+                        <div class="service-icon">
+                          <div
+                            class="icon-bg-circle d-flex align-items-center justify-content-center d-inline-flex"
+                          >
+                            <i class="fa-solid fa-calendar-days"></i>
+                          </div>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Marketing Services</h5>
+                          <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Magni adipisci eaque autem fugiat! Quia,
+                            provident vitae! Magni tempora perferendis eum non
+                            provident.
+                          </p>
                         </div>
                       </div>
                     </div>
                   </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
-    <!-- *********************** End About *********************** -->
+    <!-- *********************** End Services *********************** -->
+
+    <!-- *********************** Start Counter Section  *********************** -->
+    <section class="counter-sect box-shadow position-relative">
+      <div class="overlay-counter position-absolute"></div>
+      <div class="container position-relative">
+        <div class="row justify-content-center">
+          <!-- counter 1 -->
+          <div class="col-sm-3 text-center col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-icon icon-bg-circle">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div class="counter-content">
+                <p
+                  class="counter-num purecounter"
+                  data-purecounter-start="0"
+                  data-purecounter-end="450"
+                  data-purecounter-duration="1"
+                >
+                  450
+                </p>
+                <span class="counter-text">WORKS COMPLETED</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- counter 2 -->
+          <div class="col-sm-3 text-center col-lg-3">
+            <div class="counter-box">
+              <div class="counter-icon icon-bg-circle">
+                <i class="fa-solid fa-newspaper"></i>
+              </div>
+              <div class="counter-content">
+                <p
+                  class="counter-num purecounter"
+                  data-purecounter-start="0"
+                  data-purecounter-end="25"
+                  data-purecounter-duration="1"
+                >
+                  25
+                </p>
+                <span class="counter-text">YEARS OF EXPERIENCE</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- counter 3 -->
+          <div class="col-sm-3 text-center col-lg-3">
+            <div class="counter-box">
+              <div class="counter-icon icon-bg-circle">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <div class="counter-content">
+                <p
+                  class="counter-num purecounter"
+                  data-purecounter-start="0"
+                  data-purecounter-end="550"
+                  data-purecounter-duration="1"
+                >
+                  550
+                </p>
+                <span class="counter-text">TOTAL CLIENTS</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- counter 4 -->
+          <div class="col-sm-3 text-center col-lg-3">
+            <div class="counter-box">
+              <div class="counter-icon icon-bg-circle">
+                <i class="fa-solid fa-award"></i>
+              </div>
+              <div class="counter-content">
+                <p
+                  class="counter-num purecounter"
+                  data-purecounter-start="0"
+                  data-purecounter-end="48"
+                  data-purecounter-duration="1"
+                >
+                  48
+                </p>
+                <span class="counter-text">AWARD WON</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- *********************** End Counter Section *********************** -->
+
+        <!-- *********************** Start Portfolio *********************** -->
+        <section class="bg-section sect-pt-4 sect-pb-4">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="title-box text-center">
+                  <h3 class="fs-tilte">Portfolio</h3>
+                  <p class="subtitle">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <div class="sect-title-line"></div>
+                </div>
+              </div>
+              <div class="mb-5">
+                <div class="row g-0">
+                  <div class="col-md-4 w-100">
+                    <div class="row">
+                      <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <!-- service 1 -->
+                        <div class="col-md-4">
+                          <div class="card portfolio-box box-shadow text-start">
+                              <div class="box-img">
+                                <img src="./imgs/work-1.jpg" class="card-img-top" alt="...">
+                              </div>
+                            </a>
+                            <div class="row">
+                              <div class="col-sm-8 card-body-l">
+                                <h2 class="blog-card card-title">Web Design</h2>
+                                <div class="blog-details">
+                                  <span class="blog-ctegory">Web Dsign</span>
+                                  / 
+                                  <span class="blog-date">18 Sep. 2025</span>
+                                </div>
+                              </div>
+                              <div class="col-sm-4 card-body-r">
+                                <div class="card-btn">
+                                  <a href="#">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- service 2 -->
+                        <div class="col">
+                          <div class="card portfolio-box box-shadow text-start">
+                              <div class="box-img">
+                                <img src="./imgs/work-2.jpg" class="card-img-top" alt="...">
+                              </div>
+                            </a>
+                            <div class="row">
+                              <div class="col-sm-8 card-body-l">
+                                <h2 class="blog-card card-title">Web Development</h2>
+                                <div class="blog-details">
+                                  <span class="blog-ctegory">Web Dsign</span>
+                                  /
+                                  <span class="blog-date">18 Sep. 2025</span>
+                                </div>
+                              </div>
+                              <div class="col-sm-4 card-body-r">
+                                <div class="card-btn">
+                                  <a href="#">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- service 3 -->
+                        <div class="col">
+                          <div class="card portfolio-box box-shadow text-start">
+                              <div class="box-img">
+                                <img src="./imgs/work-3.jpg" class="card-img-top" alt="...">
+                              </div>
+                            </a>
+                            <div class="row">
+                              <div class="col-sm-8 card-body-l">
+                                <h2 class="blog-card card-title">Photography</h2>
+                                <div class="blog-details">
+                                  <span class="blog-ctegory">Web Dsign</span>
+                                  / 
+                                  <span class="blog-date">18 Sep. 2025</span>
+                                </div>
+                              </div>
+                              <div class="col-sm-4 card-body-r">
+                                <div class="card-btn">
+                                  <a href="#">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- service 4 -->
+                        <div class="col">
+                          <div class="card portfolio-box box-shadow text-start">
+                              <div class="box-img">
+                                <img src="./imgs/work-4.jpg" class="card-img-top" alt="...">
+                              </div>
+                            </a>
+                            <div class="row">
+                              <div class="col-sm-8 card-body-l">
+                                <h2 class="blog-card card-title">Responsive Design</h2>
+                                <div class="blog-details">
+                                  <span class="blog-ctegory">Web Dsign</span>
+                                  / 
+                                  <span class="blog-date">18 Sep. 2025</span>
+                                </div>
+                              </div>
+                              <div class="col-sm-4 card-body-r">
+                                <div class="card-btn">
+                                  <a href="#">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- service 5 -->
+                        <div class="col">
+                          <div class="card portfolio-box box-shadow text-start">
+                              <div class="box-img">
+                                <img src="./imgs/work-5.jpg" class="card-img-top" alt="...">
+                              </div>
+                            </a>
+                            <div class="row">
+                              <div class="col-sm-8 card-body-l">
+                                <h2 class="blog-card card-title">Graphic Design</h2>
+                                <div class="blog-details">
+                                  <span class="blog-ctegory">Web Dsign</span>
+                                  / 
+                                  <span class="blog-date">18 Sep. 2025</span>
+                                </div>
+                              </div>
+                              <div class="col-sm-4 card-body-r">
+                                <div class="card-btn">
+                                  <a href="#">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- service 6 -->
+                        <div class="col">
+                          <div class="card portfolio-box box-shadow text-start">
+                              <div class="box-img">
+                                <img src="./imgs/work-6.jpg" class="card-img-top" alt="...">
+                              </div>
+                            </a>
+                            <div class="row">
+                              <div class="col-sm-8 card-body-l">
+                                <h2 class="blog-card card-title">Marketing Services</h2>
+                                <div class="blog-details">
+                                  <span class="blog-ctegory">Web Dsign</span>
+                                  / 
+                                  <span class="blog-date">18 Sep. 2025</span>
+                                </div>
+                              </div>
+                              <div class="col-sm-4 card-body-r">
+                                <div class="card-btn">
+                                  <a href="#">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- *********************** End Portfolio *********************** -->
+
+
+
+
+
+
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam similique
+      obcaecati velit officia sed repudiandae deserunt, nobis perspiciatis
+      placeat pariatur totam, fuga asperiores ullam porro doloremque, mollitia
+      tenetur? Officia, necessitatibus.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam similique
+      obcaecati velit officia sed repudiandae deserunt, nobis perspiciatis
+      placeat pariatur totam, fuga asperiores ullam porro doloremque, mollitia
+      tenetur? Officia, necessitatibus.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam similique
+      obcaecati velit officia sed repudiandae deserunt, nobis perspiciatis
+      placeat pariatur totam, fuga asperiores ullam porro doloremque, mollitia
+      tenetur? Officia, necessitatibus.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam similique
+      obcaecati velit officia sed repudiandae deserunt, nobis perspiciatis
+      placeat pariatur totam, fuga asperiores ullam porro doloremque, mollitia
+      tenetur? Officia, necessitatibus.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam similique
+      obcaecati velit officia sed repudiandae deserunt, nobis perspiciatis
+      placeat pariatur totam, fuga asperiores ullam porro doloremque, mollitia
+      tenetur? Officia, necessitatibus.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam similique
+      obcaecati velit officia sed repudiandae deserunt, nobis perspiciatis
+      placeat pariatur totam, fuga asperiores ullam porro doloremque, mollitia
+      tenetur? Officia, necessitatibus.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam similique
+      obcaecati velit officia sed repudiandae deserunt, nobis perspiciatis
+      placeat pariatur totam, fuga asperiores ullam porro doloremque, mollitia
+      tenetur? Officia, necessitatibus.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam similique
+      obcaecati velit officia sed repudiandae deserunt, nobis perspiciatis
+      placeat pariatur totam, fuga asperiores ullam porro doloremque, mollitia
+      tenetur? Officia, necessitatibus.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam similique
+      obcaecati velit officia sed repudiandae deserunt, nobis perspiciatis
+      placeat pariatur totam, fuga asperiores ullam porro doloremque, mollitia
+      tenetur? Officia, necessitatibus.
+    </p>
 
     <!-- *********************** Start Typed.js Library ***********************  -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
-        var typed = new Typed("#typed", {
-          strings: ["Freelancer", "Designer", "Developer", "Photographer"],
-          typeSpeed: 80,
-          backSpeed: 50,
-          loop: true
-        });
-      </script>
+      var typed = new Typed("#typed", {
+        strings: ["Freelancer", "Designer", "Developer", "Photographer"],
+        typeSpeed: 80,
+        backSpeed: 50,
+        loop: true,
+      });
+    </script>
     <!-- *********************** End Typed.js Library ***********************  -->
 
     <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <!-- *********************** Start PureCounter.js Library ***********************  -->
+    <script src="https://cdn.jsdelivr.net/npm/purecounterjs@1.5.0/dist/purecounter_vanilla.js"></script>
+
+    <script>
+      window.addEventListener('load', function () {
+        new PureCounter();
+      });
+    </script>
+    
+    <!-- *********************** End PureCounter.js Library ***********************  -->
   </body>
 </html>
