@@ -60,6 +60,10 @@ p {
 
 
 /* *********************** Start Navbar *********************** */
+nav.navbar {
+    background-color: #000000c4;
+}
+
 .navbar>.container>div>ul>li>a {
     position: relative;
 }
